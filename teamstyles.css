@@ -18,11 +18,10 @@ body {
     color: #214365;
     -webkit-text-stroke: 3px #fce029;
 }
-
 main {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0 20px; /* 양옆 여백 */
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -32,14 +31,11 @@ main {
     color: #555;
     width: 100%;
     max-width: 600px;
-    padding: 20px; /* 내부 여백 */
+    padding: 30px 20px; /* 내부 여백 */
     border-radius: 15px;
-
     position: relative;
-
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 .team-intro-box::after {
     /* 바느질 */
     content: '';
@@ -49,13 +45,10 @@ main {
     bottom: 15px;
     left: 15px;
     right: 15px;
-
     border: 2px dashed #214365;
     border-radius: 10px;
-
     pointer-events: none;
 }
-
 .team-intro-box h2 {
     font-size: 24px;
     margin-top: 0;
@@ -75,49 +68,35 @@ section {
     padding: 0 20px;
     font-family: 'Noto Sans KR', sans-serif;
 }
-
 .members-container {
     display: flex;
     justify-content: center;
-
     gap: 15px;
-    margin-top: 50px;
-
+    margin-top: 40px;
     flex-wrap: nowrap;
-
     width: 100%;
     max-width: 950px;
-
     overflow: hidden;
 }
-
 .member-card {
     background-color: #ffffff;
-
     border-top: 10px solid #fce029;
-
     /* 박스 세로 길이 */
-    min-height: 280px;
-
+    min-height: 220px;
     flex: 1;
     min-width: 180px;
-
     padding: 20px;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
 .position-circle {
     width: auto;
     height: auto;
-
     display: inline-block;
     padding: 5px 12px;
     border-radius: 20px;
-
     margin: 0 auto 5px;
-
     color: #111;
     font-weight: bold;
     font-size: 12px;
@@ -125,7 +104,6 @@ section {
     text-align: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
-
 .role-design-pm {
     background-color: #fce029;
 }
@@ -136,14 +114,12 @@ section {
 .role-backend {
     background-color: #e0e0e0;
 }
-
 .member-name {
     font-size: 20px;
     font-weight: bold;
     color: #1b3b5a;
     margin: 5px 0 15px 0;
 }
-
 .info-box {
     background-color: #fdf1cb;
     padding: 12px;
@@ -155,7 +131,6 @@ section {
     text-align: left;
     border: 2px solid #b0c4de;
 }
-
 .features {
     font-size: 13px;
     line-height: 1.5;
@@ -173,24 +148,19 @@ section {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     margin: 15px 0 15px 0;
-
     z-index: 1;
 }
-
 .goggles-2-eye::before {
     content: '';
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
     width: 250px;
     height: 12px;
     background-color: #333;
     z-index: -1;
 }
-
 .eye-lens {
     display: inline-block;
     width: 45px;
@@ -201,7 +171,6 @@ section {
     position: relative;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .eye-lens::after {
     content: '';
     position: absolute;
