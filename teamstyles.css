@@ -6,7 +6,7 @@ body {
     background-repeat: repeat;
     background-size: 250px 250px;
 
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
@@ -14,14 +14,14 @@ body {
 
 .main-title {
     font-family: 'Bungee', sans-serif;
-    font-size: 110px;
+    font-size: 120px;
     color: #214365;
     -webkit-text-stroke: 3px #fce029;
 }
 main {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 0 20px; /* 양옆 여백 */
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -72,7 +72,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 40px;
+    margin-top: 50px;
     flex-wrap: nowrap;
     width: 100%;
     max-width: 950px;
